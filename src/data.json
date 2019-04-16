@@ -1,0 +1,40 @@
+{
+  "repositories": [
+    {
+      "projectID":0,
+      "projectName":"Trip Api",
+      "description":"Trip Api",
+      "circleCiHref":"https://circleci.com/gh/Vacasa/trip-api",
+      "circleCiImages": ["https://camo.githubusercontent.com/b0686832213502924a6bcdcde69ed60db01aeb04/68747470733a2f2f636972636c6563692e636f6d2f67682f5661636173612f747269702d6170692e7376673f7374796c653d73766726636972636c652d746f6b656e3d31363238383432316133303430616466323931376563386261373430336463633634653634333936", "https://circleci.com/gh/Vacasa/trip-api.svg?style=svg&amp;circle-token=16288421a3040adf2917ec8ba7403dcc64e64396"],
+      "codeClimateHref":["https://codeclimate.com/repos/5c00842ebdd7b2026e003ae8/maintainability", "https://codeclimate.com/repos/5c00842ebdd7b2026e003ae8/test_coverage"],
+      "codeClimateImages":["https://api.codeclimate.com/v1/badges/0b85b964895ee842d091/maintainability", "https://camo.githubusercontent.com/83bd71f83da66e827df2548c966c41f0b415fcdc/68747470733a2f2f6170692e636f6465636c696d6174652e636f6d2f76312f6261646765732f30623835623936343839356565383432643039312f746573745f636f766572616765", "https://api.codeclimate.com/v1/badges/0b85b964895ee842d091/test_coverage"]
+    },
+    {
+      "projectID":1,
+      "projectName":"Trip Manager App",
+      "description":"Trip Manager App",
+      "circleCiHref":"https://circleci.com/gh/Vacasa/trip-manager-app",
+      "circleCiImages": ["https://camo.githubusercontent.com/0669589d8c245d7348c3df90a9241e9fc5a4fb99/68747470733a2f2f636972636c6563692e636f6d2f67682f5661636173612f747269702d6d616e616765722d6170702e7376673f7374796c653d73766726636972636c652d746f6b656e3d63343732343731356563386639623366393065356431383365653737666135393562306664623931", "https://circleci.com/gh/Vacasa/trip-api.svg?style=svg&amp;circle-token=16288421a3040adf2917ec8ba7403dcc64e64396"],
+      "codeClimateHref":["https://codeclimate.com/repos/5b5bb00bdc47bd026d0011f5/maintainability", "https://codeclimate.com/repos/5b5bb00bdc47bd026d0011f5/test_coverage"],
+      "codeClimateImages":["https://camo.githubusercontent.com/6a2225c2cb78390baaab53da819eaccd69f5f549/68747470733a2f2f6170692e636f6465636c696d6174652e636f6d2f76312f6261646765732f39643464626365626461306439343135323633612f6d61696e7461696e6162696c697479", "https://api.codeclimate.com/v1/badges/9d4dbcebda0d9415263a/maintainability", "https://camo.githubusercontent.com/747a439d7c8529c10e23eb97ef51870e99d650f4/68747470733a2f2f6170692e636f6465636c696d6174652e636f6d2f76312f6261646765732f39643464626365626461306439343135323633612f746573745f636f766572616765", "https://api.codeclimate.com/v1/badges/9d4dbcebda0d9415263a/test_coverage"]
+    },
+    {
+      "projectID":2,
+      "projectName":"Guest Data Types Library",
+      "description":"Guest Data Types TS Library",
+      "circleCiHref":"https://circleci.com/gh/Vacasa/guest-data-types-ts-lib",
+      "circleCiImages": ["https://camo.githubusercontent.com/b06e6c293bcc34104d091fdba55fb19f75fb305b/68747470733a2f2f636972636c6563692e636f6d2f67682f5661636173612f67756573742d646174612d74797065732d74732d6c69622e7376673f7374796c653d73766726636972636c652d746f6b656e3d37643264616532633364643439303932396130616330373432626639633836316336316632656239", "https://circleci.com/gh/Vacasa/guest-data-types-ts-lib.svg?style=svg&amp;circle-token=7d2dae2c3dd490929a0ac0742bf9c861c61f2eb9 "],
+      "codeClimateHref":["https://codeclimate.com/repos/5c9132c3927492120f01ae0a/maintainability"],
+      "codeClimateImages":["https://camo.githubusercontent.com/61d8f9f6d3ada93b05544cf9d0e395ece977e83b/68747470733a2f2f6170692e636f6465636c696d6174652e636f6d2f76312f6261646765732f34393461326561383164643639346466666331322f6d61696e7461696e6162696c697479", "https://api.codeclimate.com/v1/badges/494a2ea81dd694dffc12/maintainability"]
+    },
+    {
+      "projectID":3,
+      "projectName":"Public",
+      "description":"Public Repository",
+      "circleCiHref":"https://circleci.com/gh/Vacasa/Public",
+      "circleCiImages": ["https://camo.githubusercontent.com/44ba9a404985b854379cd4997aee40154f547e61/68747470733a2f2f636972636c6563692e636f6d2f67682f5661636173612f5075626c69632e7376673f7374796c653d73766726636972636c652d746f6b656e3d61643034616663643236336438633866633935323137393935363466386238653535623262363134", "https://circleci.com/gh/Vacasa/Public.svg?style=svg&amp;circle-token=ad04afcd263d8c8fc9521799564f8b8e55b2b614"],
+      "codeClimateHref":"",
+      "codeClimateImages":""
+    }
+  ]
+}

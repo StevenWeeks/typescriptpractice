@@ -1,28 +1,40 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import * as data from './data.json';
+import {
+  BrowserRouter,
+  Route
+} from 'react-router-dom'
+import CoolHeader from './components/header'
+import Badges from './components/Badges'
 
-class App extends Component {
-  render() {
+
+export default class App extends Component <any, any> {
+ constructor(props:any) {
+   super(props)
+   this.state = {
+     dataFromJson: data
+   }
+ }
+
+
+
+
+
+
+   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.tsx</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+
+      <BrowserRouter>
+        <div className="MainDiv">
+          <div className="MainHeader">
+            <Route path="/" component= {() => <CoolHeader/>}/>
+          </div>
+            <div className="App">
+            <Route path="/" render= {() => <Badges data = {this.state.dataFromJson.default}/> }/>
+        </div>
+        </div>
+      </BrowserRouter>
     );
   }
 }
-
-export default App;
